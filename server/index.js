@@ -2,7 +2,6 @@ const express = require('express');
 const cors =  require('cors'); 
 const CoinMarketCap = require('coinmarketcap-api')
 const {ethers} = require("ethers")
-const {axios} = require("axios")
 const { Alchemy, Network } = require("alchemy-sdk");
 
 
