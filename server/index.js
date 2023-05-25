@@ -10,7 +10,7 @@ const app = express()
 app.use(cors())
 app.use(express.json())
 const config = {
-    apiKey: "nensquDAxgnxhRUzOaCOZJMsHdDgvYlT", // Replace with your API key
+    apiKey: "", // Replace with your API key
     network: Network.ETH_MAINNET, // Replace with your network
 
 }
